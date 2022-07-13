@@ -83,3 +83,49 @@ nav a {
 .slogan-area div {
     margin: 20px 0;
 }
+
+.service-charge {
+    padding: var(--container-padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-charge h3 {
+    font-size: 30px;
+    color: var(--color-primary);
+}
+
+.service-charge .table-container {
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.service-charge table {
+    width: 100%;
+    border-collapse: collapse;
+    /* background-color: orange; */
+}
+
+.service-charge td, .service-charge th {
+    padding: 10px 20px;
+}
+
+.service-charge th {
+    text-align: left;
+    background-color: #eeeeee;
+}
+
+.service-charge td {
+    background-color: #f9f9f9;
+}
+
+.service-charge tbody tr {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.service-charge tbody tr:last-child {
+    border-bottom: none;
+}
